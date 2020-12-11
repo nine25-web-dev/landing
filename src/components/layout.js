@@ -1,26 +1,10 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import base from './base.css'
-import Container from './container'
-import Navigation from './navigation'
+import React from "react"
 
-class Template extends React.Component {
-  render() {
-    const { location, children } = this.props
-    let header
-
-    let rootPath = `/`
-    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-      rootPath = __PATH_PREFIX__ + `/`
-    }
-
-    return (
-      <Container>
-        <Navigation />
-        {children}
-      </Container>
-    )
-  }
+export const Layout = ({children}) => {
+  
+  return (
+    <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
+      {children}
+    </div>
+  )
 }
-
-export default Template

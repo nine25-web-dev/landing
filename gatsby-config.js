@@ -25,9 +25,9 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Contentful starter',
+    title: 'Nine25',
   },
-  pathPrefix: '/gatsby-contentful-starter',
+  pathPrefix: '/landing',
   plugins: [
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',

@@ -1,4 +1,4 @@
-# gatsby-contentful-starter
+# Nine25 Gatsby Contentful Project
 
 Gatsby [Contentful](https://www.contentful.com) starter for creating a blog
 
