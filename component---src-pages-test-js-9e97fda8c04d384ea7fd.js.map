@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/test.js"],"names":["Test","props"],"mappings":"2FAAA,gCAUeA,UARF,SAACC,GACZ,OACE","file":"component---src-pages-test-js-9e97fda8c04d384ea7fd.js","sourcesContent":["import React from 'react'\n\nconst Test = (props) => {\n  return (\n    <>\n      NotFound\n    </>\n  )\n}\n\nexport default Test"],"sourceRoot":""}
